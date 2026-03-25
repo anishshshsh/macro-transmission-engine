@@ -1,0 +1,47 @@
+# ================================
+# EVENT STUDY SETTINGS
+# ================================
+
+# Time windows (in minutes) after macro release
+# These represent different market participants
+event_windows:
+  - 1      # Ultra-fast / algos
+  - 15     # Rates desks
+  - 60     # Macro funds
+  - 1440   # 1 trading day (asset allocators)
+
+# Pre-event lookback window (minutes)
+pre_event_window: 30
+
+# Post-event max window (minutes)
+post_event_window: 1440
+
+
+# ================================
+# SURPRISE NORMALIZATION
+# ================================
+
+# Rolling window (in events) to compute surprise volatility
+surprise_vol_window: 6
+
+# Z-score threshold to flag large surprises
+large_surprise_threshold: 1.5
+
+
+# ================================
+# CORRELATION & REGIME SETTINGS
+# ================================
+
+# Rolling window (days) for correlation calculation
+correlation_window_days: 60
+
+# Z-score threshold to flag abnormal correlation shifts
+correlation_break_threshold: 2.0
+
+
+# ================================
+# GENERAL
+# ================================
+
+timezone: "US/Eastern"
+trading_calendar: "NYSE"

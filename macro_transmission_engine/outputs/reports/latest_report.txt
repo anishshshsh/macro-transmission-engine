@@ -1,0 +1,16 @@
+
+MACRO EVENT REPORT
+==================
+Date: 2023-08-10
+Surprise Z-Score: -1.58
+
+Lead Asset: SPY ETF
+Transmission Strength: 1.0
+
+Event Matrix:
+                           1m  15m  60m     1440m
+SPY ETF                   0.0  0.0  0.0 -0.000583
+2Y Treasury Proxy (SHY)   0.0  0.0  0.0 -0.000988
+10Y Treasury Proxy (IEF)  0.0  0.0  0.0 -0.005298
+US Dollar Index           0.0  0.0  0.0  0.003116
+VIX                       0.0  0.0  0.0 -1.010000

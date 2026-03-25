@@ -1,0 +1,26 @@
+# ================================
+# ASSET UNIVERSE
+# ================================
+
+equities:
+  name: "SPY ETF"
+  ticker: "SPY"
+  type: "returns"
+  
+rates:
+  - name: "2Y Treasury Proxy (SHY)"
+    ticker: "SHY"
+    type: "returns"
+  - name: "10Y Treasury Proxy (IEF)"
+    ticker: "IEF"
+    type: "returns"
+
+fx:
+  name: "US Dollar Index"
+  ticker: "DX-Y.NYB"
+  type: "returns"
+
+volatility:
+  name: "VIX"
+  ticker: "^VIX"
+  type: "level"
